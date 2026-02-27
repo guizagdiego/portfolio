@@ -1,5 +1,5 @@
+import { cn } from '@/lib/utils';
 import { motion } from 'motion/react';
-import { cn } from './ui/utils';
 
 export const ThemeToggleButton2 = ({ className = '', theme = 'light' }: { className?: string; theme?: string }) => {
   const isLight = theme === 'light';
